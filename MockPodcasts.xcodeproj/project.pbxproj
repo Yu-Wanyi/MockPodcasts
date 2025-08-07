@@ -6,8 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		AEE012E02E425C2F00FF66DA /* AppIcon.icon in Resources */ = {isa = PBXBuildFile; fileRef = AEE012DF2E425C2F00FF66DA /* AppIcon.icon */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		AEE012B72E4233E500FF66DA /* MockPodcasts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MockPodcasts.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEE012DF2E425C2F00FF66DA /* AppIcon.icon */ = {isa = PBXFileReference; lastKnownFileType = folder.iconcomposer.icon; path = AppIcon.icon; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -45,6 +50,7 @@
 		AEE012AE2E4233E500FF66DA = {
 			isa = PBXGroup;
 			children = (
+				AEE012DF2E425C2F00FF66DA /* AppIcon.icon */,
 				AEE012B92E4233E500FF66DA /* MockPodcasts */,
 				AEE012B82E4233E500FF66DA /* Products */,
 			);
@@ -122,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEE012E02E425C2F00FF66DA /* AppIcon.icon in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
